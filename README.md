@@ -16,6 +16,26 @@ This lecture was kindly brought to you by:
 
 All the resources were created entirely by us or were properly credited in the subsection below.
 
+## A quick history lesson
+
+According to [JustPaste.it](https://justpaste.it/9trhs), Qiskit has a rich
+history of development and evolution that can be traced back to 2017's IBM
+first release. Back then, the simulator was nothing more than a Python library
+based on the _matrix product state (MPS)_ and the
+_time-evolving block decimation method (TEBD)_.
+
+In 2018, IBM introduces noisy quantum circuits using the
+_quantum process tomography (QPT)_ technique. This allowed for realistic
+simulations that took into account the effect of noise and errors in the real
+quantum hardware.
+
+Once again, in 2019, IBM introduced a new feature, the Aer quantum simulator,
+a high-performance program that can simulate large-scale quantum circuits with
+millions of qubits and gates.
+
+In recent years, that is in 2020, IBM made public Qiskit Runtime, which allows
+users to run quantum circuits on real quantum hardware using IBM's API.
+
 ## Environment setup
 
 While a detailed overview of the installation is provided by
