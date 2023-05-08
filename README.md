@@ -56,8 +56,9 @@ python --version
 pip3 --version
 ```
 
-You should not get an error. If everything went alright, type in the same
-command prompt the following:
+You should not get an error. If everything went alright, open up a command
+prompt **with administrator rights** (Start -> search for CMD -> right click ->
+_Run as administrator_).
 
 ```bash
 pip3 install jupyter jupyterlab qiskit[visualization]
