@@ -25,7 +25,28 @@ tutorial that is right for your platform.
 
 ### Windows
 
-TODO?
+First, install [**Python 3**](https://www.python.org/downloads/) by clicking on
+the yellow "Download Python 3.X.X" button and following the wizard's
+instructions. Once that is done, you can check that both Python and its package
+manager, **PiP**, were properly installed. To do this, open up a command prompt
+and type:
+
+```bash
+python3 --version
+pip3 --version
+```
+
+You should not get an error. If everything went alright, type in the same
+command prompt the following:
+
+```bash
+pip3 install jupyter jupyterlab qiskit[visualization]
+```
+
+This command will automatically install everything we need in order to correctly
+run **Qiskit** inside a **Jupyter lab** environment.
+
+You can now move on to the next section.
 
 ### Linux
 
@@ -34,7 +55,7 @@ following in a terminal window:
 
 ```bash
 sudo apt update
-sudo apt install python3 python-pip
+sudo apt install python3 python3-pip
 pip install jupyter jupyterlab qiskit[visualization]
 ```
 
@@ -51,8 +72,12 @@ quotes, as in `pip install jupyter jupyterlab 'qiskit[visualization]'`.
 
 ## Running the lab
 
-In order to get started, you should start `jupyter-lab` and open the `lab.ipynb`
-file. Then, follow the instructions provided in the said document.
+To get started, you should run `jupyter-lab` inside a command line. In case
+something goes wrong and an error pops up, you might need to log out and log
+back in before continuing; on Linux, you can skip this step by simply running
+`~/.local/bin/jupyter-lab` instead.
 
-_Note:_ On Linux, running the `jupyter-lab` without logging off can only be
-performed by running `~/.local/bin/jupyter-lab` from a terminal window.
+A browser should get launched alongside a locally hosted server. In the left
+panel, please navigate to the folder in which you have downloaded/cloned this
+repository. Now click on the `lab.ipynb` and follow the instructions provided in
+that notebook.
