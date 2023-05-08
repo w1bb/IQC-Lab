@@ -58,7 +58,7 @@ pip3 --version
 
 You should not get an error. If everything went alright, open up a command
 prompt **with administrator rights** (Start -> search for CMD -> right click ->
-_Run as administrator_).
+_Run as administrator_) and type in:
 
 ```bash
 pip3 install jupyter jupyterlab qiskit[visualization]
@@ -93,10 +93,11 @@ quotes, as in `pip install jupyter jupyterlab 'qiskit[visualization]'`.
 
 ## Running the lab
 
-To get started, you should run `jupyter-lab` inside a command line. In case
-something goes wrong and an error pops up, you might need to log out and log
-back in before continuing; on Linux, you can skip this step by simply running
-`~/.local/bin/jupyter-lab` instead.
+To get started, you should clone/download this repository, open up a command
+line/terminal, navigate to the parent folder and run `jupyter-lab`. In case
+something goes wrong and an error pops up, you might need to first log out and
+log back in before continuing; on Linux, you can skip this step by simply
+running `~/.local/bin/jupyter-lab` instead.
 
 A browser should get launched alongside a locally hosted server. In the left
 panel, please navigate to the folder in which you have downloaded/cloned this
