@@ -99,5 +99,9 @@ back in before continuing; on Linux, you can skip this step by simply running
 
 A browser should get launched alongside a locally hosted server. In the left
 panel, please navigate to the folder in which you have downloaded/cloned this
-repository. Now click on the `lab.ipynb` and follow the instructions provided in
-that notebook.
+repository. Now click on the `lab-QFT.ipynb` to load it and follow the
+instructions provided in that notebook.
+
+If, at any point, you get a little stuck, ask for help and/or take a look at the
+proposed solution (see `lab-QFT-solution.ipynb`). Once you are done with that
+notebook, you can move on to `lab-QPE.ipynb`.
