@@ -52,7 +52,7 @@ manager, **PiP**, were properly installed. To do this, open up a command prompt
 and type:
 
 ```bash
-python3 --version
+python --version
 pip3 --version
 ```
 
